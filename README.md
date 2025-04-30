@@ -1,10 +1,5 @@
 API REST Tienda de Joyas - Instrucciones Técnicas
 
-REQUISITOS PREVIOS:
-1. PostgreSQL instalado y en ejecución
-2. Node.js (v16+ recomendado)
-3. npm o yarn
-
 INSTRUCCIONES DE IMPLEMENTACIÓN:
 
 1. CONFIGURACIÓN DE BASE DE DATOS:
@@ -50,8 +45,3 @@ ENDPOINTS IMPLEMENTADOS:
 2. GET /joyas/filtros
 - Parámetros: precio_min, precio_max, categoria, metal
 - Retorna joyas filtradas
-
-VALIDACIONES:
-- Middleware de logging activo
-- Consultas parametrizadas en /joyas/filtros
-- Manejo centralizado de errores
